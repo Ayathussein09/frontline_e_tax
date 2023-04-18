@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include frontline_e_tax *.css
+recursive-include frontline_e_tax *.csv
+recursive-include frontline_e_tax *.html
+recursive-include frontline_e_tax *.ico
+recursive-include frontline_e_tax *.js
+recursive-include frontline_e_tax *.json
+recursive-include frontline_e_tax *.md
+recursive-include frontline_e_tax *.png
+recursive-include frontline_e_tax *.py
+recursive-include frontline_e_tax *.svg
+recursive-include frontline_e_tax *.txt
+recursive-exclude frontline_e_tax *.pyc
